@@ -1,0 +1,6 @@
+a=float(input("Ingrese el precio de compra al contado: "))
+b=float(input("Ingrese el valor de la cuota: "))
+p=(a/12)
+pp=(b-p)
+c=((pp*100)/b)
+print(("El porcentaje es de: ")+str(c))

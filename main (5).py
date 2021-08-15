@@ -1,0 +1,12 @@
+a=float(input("Ingrese la nota de su primer parcial: "))
+b=float(input("Ingrese la nota de su segundo parcial: "))
+c=float(input("Ingrese la nota de su tercer parcial: "))
+d=float(input("Ingrese la nota de su examen final: "))
+e=float(input("Ingrese la nota de su trabajo final: "))
+
+p=((a+b+c)/3)
+t=(p*0.55)
+r=(d*0.30)
+f=(e*0.15)
+tt=(t+r+f)
+print(("La calificación final es de: ")+str(tt))

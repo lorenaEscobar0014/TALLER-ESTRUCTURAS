@@ -1,0 +1,6 @@
+a=float(input("Ingrese el numero de horas laboradas: "))
+b=float(input("Ingrese el valor por hora: "))
+s=(a*b)
+ps=(s*0.20)
+sd=(s-ps)
+print(("El salario total es de: ")+str(sd))

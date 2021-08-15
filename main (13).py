@@ -1,0 +1,26 @@
+a=float(input("Ingrese la cantidad de billetes de 50.000: "))
+b=float(input("Ingrese la cantidad de billetes de 20.000: "))
+c=float(input("Ingrese la cantidad de billetes de 10.000: "))
+d=float(input("Ingrese la cantidad de billetes de 5.000: "))
+e=float(input("Ingrese la cantidad de billetes de 2.000: "))
+f=float(input("Ingrese la cantidad de billetes de 1.000: "))
+g=float(input("Ingrese la cantidad de billetes de 500: "))
+h=float(input("Ingrese la cantidad de billetes de 100: "))
+v1=50000
+v2=20000
+v3=10000
+v4=5000
+v5=2000
+v6=1000
+v7=500
+v8=100
+TB=(a*v1)
+TB1=(b*v2)
+TB2=(c*v3)
+TB3=(d*v4)
+TB4=(e*v5)
+TB5=(f*v6)
+TB6=(g*v7)
+TB7=(h*v8)
+TT=((TB+TB1+TB2+TB3+TB4+TB5+TB6+TB7))
+print(("El total de dinero que hay en el banco es de: ")+str(TT))

@@ -1,0 +1,5 @@
+h=float(input("Ingrese la medida en metros: "))
+p=(h*39.27)
+ps=(p/12)
+print(("La medida en pulgadas es de: ")+str(p))
+print(("La medida en pies es de: ")+str(ps))

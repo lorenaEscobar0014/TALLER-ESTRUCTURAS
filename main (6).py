@@ -1,0 +1,7 @@
+h=int(input("Digite el numero de hombres: "))
+m=int(input("Digite el numero de mujeres: "))
+t=(h+m)
+tt=((m*100)/t)
+tt1=((h*100)/t)
+print(("El porcentaje de hombres es de: ")+str(tt1))
+print(("El porcentaje de mujeres es de: ")+str(tt))

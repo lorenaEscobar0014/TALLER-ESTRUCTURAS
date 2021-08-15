@@ -1,0 +1,5 @@
+a=float(input("Ingrese el dato de la lectura anterior: "))
+b=float(input("Ingrese el dato de la lectura actual: "))
+c=float(input("Ingrese el costo por kilovatio: "))
+p=((b-a)*c)
+print(("El monto total a pagar es: ")+str(p))
